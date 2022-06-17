@@ -14,7 +14,7 @@ body {
     background: linear-gradient(-45deg, #ffff00, #ffff56, #ffff81, #ff9800);
     background-size: 400% 400%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -27,14 +27,14 @@ body {
     border: 2px black solid;
     border-radius: 15px;
     box-shadow: 10px 10px 8px black;
-    height: 60vh;
+    height: 40vh;
     width: 20vw;
     margin: 10px;
     padding: 10px;
     transition: 0.3s;
 }
 
-.profile-info {
+.profile-resume {
     display: flex;
     font-weight: bolder;
     color: rgb(17, 15, 15);
@@ -43,9 +43,47 @@ body {
     transition: 0.3s;
 }
 
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px black solid;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px black;
+    height: 60vh;
+    width: 50vw;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.profile p {
+    tab-size: 5vw;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    text-shadow: 1px 1px 10px rgb(17, 17, 17);
+    transition: 0.3s;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px black solid;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px black;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    margin-right: 5vw;
+    padding: 10px;
+    transition: 0.3s;
+}
+
 .social-media {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     cursor: pointer;
@@ -55,15 +93,21 @@ body {
 .social-media a {
     display: flex;
     justify-content: center;
-    margin: 3px;
-    width: 5vw;
     border-radius: 4px;
-    color: white;
-    background-color: black;
-    text-decoration: none;
 }
 
 h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+.buttonx {
+    width: 6vw;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.buttonx:hover {
+    background: white;
 }
