@@ -117,8 +117,11 @@ body {
 }
 
 .certificado {
-  width: 23.125rem;
-  height: 18.75rem;
+  width: 23.325rem;
+  height: 18.95rem;
+  text-decoration: none;
+  color: var(--tertiary-collor);
+  border-radius: 1rem;
 }
 .certificado:hover {
   background-color: var(--hover-color);
@@ -135,7 +138,9 @@ body {
 
 .certificado-img {
   width: 23.125rem;
-  height: 15.625rem;
+  height: 15.25rem;
+  padding: 0 0 3% 0;
+  border-radius: 2rem;
 }
 
 .perfil-img {
@@ -165,10 +170,4 @@ body {
   .container-description{
     width: auto;
   }
-  /*.container-img{
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-  }
-  */
 }
