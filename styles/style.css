@@ -163,11 +163,23 @@ body {
   .header-menu {
     justify-content: center;
   }
+  .header-menu-item{
+    font-size: 1.5rem;
+  }
   .container-conteudo {
     flex-direction: column-reverse;
     padding: 5%;
   }
   .container-description{
     width: auto;
+  }
+  .description-title{
+    font-size: 2rem;
+  }
+  .description-text{
+    font-size: 1.5rem;
+  }
+  .perfil-img{
+    width: 20rem;
   }
 }
