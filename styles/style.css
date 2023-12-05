@@ -158,13 +158,13 @@ body {
 
 @media (max-width: 1200px) {
   .header {
-    padding: 10%;
+    padding: 6%;
   }
   .header-menu {
     justify-content: center;
   }
   .header-menu-item{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .container-conteudo {
     flex-direction: column-reverse;
@@ -174,12 +174,12 @@ body {
     width: auto;
   }
   .description-title{
-    font-size: 2rem;
-  }
-  .description-text{
     font-size: 1.5rem;
   }
+  .description-text{
+    font-size: 1rem;
+  }
   .perfil-img{
-    width: 20rem;
+    width: 15rem;
   }
 }
